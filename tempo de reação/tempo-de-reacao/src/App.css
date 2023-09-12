@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #A9A9A9;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.bolas{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: red;
+}
+
+.medicao{
+  display: flex;
+  width: 220px;
+  border: 2px solid;
+  border-color: black;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.styleMedicao{
+  font-size: 21px;
+  font-family: monospace;
+  text-align: center;
+}
