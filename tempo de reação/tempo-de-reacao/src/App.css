@@ -10,7 +10,6 @@ body{
   background-color: #A9A9A9;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 70px;
 }
 
@@ -27,7 +26,6 @@ body{
   width: 220px;
   border: 2px solid;
   border-color: black;
-  flex-direction: column;
   padding: 10px;
 }
 
@@ -35,4 +33,26 @@ body{
   font-size: 21px;
   font-family: monospace;
   text-align: center;
+}
+
+.styleDados{
+  display: flex;
+  flex-direction: column;
+}
+
+.tempos-por-cor{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  border-color: black;
+  text-align: center;
+  font-family: monospace;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.media-tempos{
+  display: flex;
+  height: 100%;
+  align-items: end;
 }
