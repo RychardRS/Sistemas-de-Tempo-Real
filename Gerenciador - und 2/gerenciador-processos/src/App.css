@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Montserrat:wght@200;300&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.boxContainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+    background: #F1F1F1;
+    flex-direction: column;
+}
+
+.boxGerenciador{
+    display: flex;
+    width: 90%;
+    height: 95%;
+    border: 1px solid;
+    border-radius: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+linear-gradient(0deg, #F1F1F1, #F1F1F1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.backgroundTittle{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background: #00315C;
+    border-radius: 23px 23px 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.styleButton{
+    display: flex;
+    width: 30%;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.styleText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.styleTittle{
+    font-family: Montserrat;
+    color: #F1F1F1;
+}
+
+.boxInputs{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.boxGenericInput{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tittleInput{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 20px;
+    width: 20%;
+}
+
+.genericInput{
+    display: flex;
+    width: 75%;
+    min-height: 30px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid;
+}
+
+.textArea{
+    display: flex;
+    width: 74%;
+    min-height: 60px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid;
+    resize: none;
+}
+
+.boxGenericSelect{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    gap: 15px;
+}
+
+.selectInput{
+    display: flex;
+    width: 100%;
+    min-height: 35px;
+    border-radius: 15px;
+    outline: none;
+    border: 2px solid;
+    min-width: 105px;
+}
+
+.selectGeneric{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 5px;
+}
+
+.box2Input{
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+}
+
+.box3Input{
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+}
+
+.boxDeadLine{
+    display: flex;
+    width: 75%;
+    height: 60px;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -30px;
+}
+
+.boxDeadLineMobile{
+    display: none;
+}
+
+.boxButtons{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.genericButton{
+    display: flex;
+    width: 20%;
+}
+
+.styleButton{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #00315C;
+}
+
+.textButton{
+    color: #F1F1F1;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 950px){
+    .boxContainer{
+        overflow-x: visible;
+    }
+    .boxGerenciador{
+        width: 85%;
+        height: 1000px;
+        max-height: 1000px;
+    }
+    .selectGeneric{
+        display: none;
+    }
+    .selectGenericMobile{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: -30px;
+    }
+    .genericInput{
+        width: 100%;
+    }
+    .textArea{
+        width: 100%;
+    }
+    .boxDeadLine{
+        display: none;
+    }
+    .boxDeadLineMobile{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .genericButton{
+        width: 30%;
+    }
+    .widthTable{
+        display: flex;
+        width: 100vw;
+    }
+  
+}
+
+@media screen and (max-width: 950px) and (orientation: landscape){
+    .boxContainer{
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .genericButton{
+        width: 40%;
+    }
+    .boxContainer{
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .styleTittle{
+        font-size: 20px;
+    }
+}
